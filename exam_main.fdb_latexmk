@@ -1,11 +1,11 @@
 # Fdb version 4
-["biber exam_main"] 1765218927.90861 "exam_main.bcf" "exam_main.bbl" "exam_main" 1765223032.75514 0
-  "exam_main.bcf" 1765223031 106450 b70b9d6197cac106e3c1a12a05e832e8 "pdflatex"
+["biber exam_main"] 0 "exam_main.bcf" "exam_main.bbl" "exam_main" 1765226936.11732 -1
+  "exam_main.bcf" 1765226935 106450 b70b9d6197cac106e3c1a12a05e832e8 "pdflatex"
   (generated)
   "exam_main.bbl"
   "exam_main.blg"
   (rewritten before read)
-["pdflatex"] 1765223028.83948 "c:/Users/alext/OneDrive/Dokumenter/AU UNI/AU 8 Semester/cyber_sec/EX_SAP_25/exam_main.tex" "exam_main.pdf" "exam_main" 1765223032.75741 0
+["pdflatex"] 1765226932.89189 "c:/Users/alext/OneDrive/Dokumenter/AU UNI/AU 8 Semester/cyber_sec/EX_SAP_25/exam_main.tex" "exam_main.pdf" "exam_main" 1765226936.11847 0
   "C:/Users/alext/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1764590634 80909 eab91d9745dd2edfd62a31d53cd5fe15 ""
   "C:/Users/alext/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/tcrm1000.pk" 1764590641 11548 13938e1c4b3b429c0028677d6b8287aa ""
   "C:/Users/alext/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1762163367 24225087 4a3fd7fefc4f3bd806c9711ae00aed09 ""
@@ -17,10 +17,12 @@
   "C:/Users/alext/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr12.tfm" 1136765053 1288 655e228510b4c2a1abe905c368440826 ""
   "C:/Users/alext/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmr17.tfm" 1136765053 1292 296a67155bdbfc32aa9c636f21e91433 ""
   "C:/Users/alext/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmsy10.tfm" 1136765053 1124 6c73e740cf17375f03eec0ee63599741 ""
+  "C:/Users/alext/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmti10.tfm" 1136765053 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
   "C:/Users/alext/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb" 1247596666 34811 78b52f49e893bcba91bd7581cdc144c0 ""
   "C:/Users/alext/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1247596666 32080 340ef9bf63678554ee606688e7b5339d ""
   "C:/Users/alext/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247596667 35752 024fb6c41858982481f6968b5fc26508 ""
   "C:/Users/alext/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1247596666 32362 bc3f3eec7ab7d65fe700963d4017d32c ""
+  "C:/Users/alext/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1247596667 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "C:/Users/alext/AppData/Local/Programs/MiKTeX/tex/context/base/mkii/supp-pdf.mkii" 1580390158 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "C:/Users/alext/AppData/Local/Programs/MiKTeX/tex/generic/babel/babel.sty" 1704647332 150008 7a05b0fdc0167c04e192003e780ab195 ""
   "C:/Users/alext/AppData/Local/Programs/MiKTeX/tex/generic/babel/locale/en/babel-en.ini" 1704647334 3966 caeee5a9e5771d4446aa1ca9015ba1b2 ""
@@ -217,15 +219,15 @@
   "Current technology and service landscape.tex" 1765222848 189 ab79562df3c889a7dac537f5fa26a34c ""
   "Dependency Analysis.tex" 1765218446 31 709b7c550c2af563cb6206111accefce ""
   "Introduction.tex" 1765222766 117 b130fdfaa0fef20c85b603783664e6ca ""
-  "c:/Users/alext/OneDrive/Dokumenter/AU UNI/AU 8 Semester/cyber_sec/EX_SAP_25/exam_main.tex" 1765223024 881 a95ab1a3c8bd087e4163620352f90c4b ""
+  "c:/Users/alext/OneDrive/Dokumenter/AU UNI/AU 8 Semester/cyber_sec/EX_SAP_25/exam_main.tex" 1765223040 881 a95ab1a3c8bd087e4163620352f90c4b ""
   "conclusion.tex" 1765218933 20 d06faf3f206a5087b04e67115f15abdc ""
   "eu_alternatives.tex" 1765218651 0 d41d8cd98f00b204e9800998ecf8427e ""
-  "exam_main.aux" 1765223031 1251 98b0ee7e97d293e711da76fad1704bb9 "pdflatex"
+  "exam_main.aux" 1765226935 1251 98b0ee7e97d293e711da76fad1704bb9 "pdflatex"
   "exam_main.bbl" 1765218931 0 d41d8cd98f00b204e9800998ecf8427e "biber exam_main"
-  "exam_main.run.xml" 1765223031 2259 18e54f9cc277baa0107294cc5cb0dd5c "pdflatex"
-  "exam_main.tex" 1765223024 881 a95ab1a3c8bd087e4163620352f90c4b ""
-  "exam_main.toc" 1765223031 592 22581bd3952100a4abf2782970ef4e01 "pdflatex"
-  "executive_summary.tex" 1765222994 223 eeb9bfd86e2659bfab989fa0fcae072b ""
+  "exam_main.run.xml" 1765226935 2259 18e54f9cc277baa0107294cc5cb0dd5c "pdflatex"
+  "exam_main.tex" 1765223040 881 a95ab1a3c8bd087e4163620352f90c4b ""
+  "exam_main.toc" 1765226935 592 22581bd3952100a4abf2782970ef4e01 "pdflatex"
+  "executive_summary.tex" 1765226931 2262 c0d5aa0a52e1333f56dc5e864844629f ""
   "forside.tex" 1765219004 738 57a57d1dca25f6eaf743ca33a3e66e07 ""
   "logo.png" 1765215327 41748 aad5cecc7be3fcb94850fa24fd69e97f ""
   "migration.tex" 1765218870 40 b5716548af549eae2379e2217bc56bd5 ""
