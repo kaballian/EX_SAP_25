@@ -374,12 +374,15 @@ INPUT .\exam_main.toc
 INPUT .\exam_main.toc
 INPUT exam_main.toc
 INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex7.tfm
 OUTPUT exam_main.toc
 INPUT .\executive_summary.tex
 INPUT .\executive_summary.tex
 INPUT executive_summary.tex
 INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
 INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT .\Introduction.tex
 INPUT .\Introduction.tex
 INPUT Introduction.tex
