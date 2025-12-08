@@ -370,6 +370,15 @@ INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tf
 INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmex10.tfm
 INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx12.tfm
 INPUT C:\Users\alext\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map
+INPUT .\exam_main.toc
+INPUT .\exam_main.toc
+INPUT exam_main.toc
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx10.tfm
+OUTPUT exam_main.toc
+INPUT .\executive_summary.tex
+INPUT .\executive_summary.tex
+INPUT executive_summary.tex
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm1000.tfm
 INPUT .\Introduction.tex
 INPUT .\Introduction.tex
 INPUT Introduction.tex
@@ -397,6 +406,10 @@ INPUT conclusion.tex
 INPUT exam_main.aux
 INPUT exam_main.run.xml
 OUTPUT exam_main.run.xml
+INPUT C:\Users\alext\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
+INPUT C:\Users\alext\AppData\Local\MiKTeX\fonts\pk\ljfour\jknappen\ec\dpi600\tcrm1000.pk
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
+INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\alext\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
