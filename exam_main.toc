@@ -3,6 +3,9 @@
 \contentsline {subsection}{\numberline {1.1}overall conclusion}{3}{}%
 \contentsline {section}{\numberline {2}Introduction}{4}{}%
 \contentsline {section}{\numberline {3}Current Technology and Service Landscape}{5}{}%
+\contentsline {subsection}{\numberline {3.1}Mediscan technology landscape }{5}{}%
+\contentsline {subsection}{\numberline {3.2}HealthSync technology landscape}{5}{}%
+\contentsline {subsection}{\numberline {3.3}The hybrid environment post merger}{5}{}%
 \contentsline {section}{\numberline {4}Dependency Analysis}{6}{}%
 \contentsline {section}{\numberline {5}Risk Assessment}{7}{}%
 \contentsline {section}{\numberline {6}EU-Alternatives}{7}{}%
