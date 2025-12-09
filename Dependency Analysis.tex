@@ -2,9 +2,131 @@
 
 
 \subsection{Purpose}
+It is imperative that we're aware who our service providers are, this is to prevent
+certain types of attacks, such as those aimed at our supply chain. If we don't commit do out due 
+diligence in vetting the providers, we are make ourselves vulnerable, which could undermine
+the efforts to ensure the safety of the company.
 
 \subsection{Dependency mapping}
+From the merger, HLS has inherited a multitude of dependencies. In the section below, the different
+types are listed:
+
+\subsubsection{A. Cloud infrastructre Dependencies}
+\begin{itemize}
+    \item Azure \begin{itemize}
+        \item Azure DevOps
+        \item Azure functions, to deploy custom script for legacy HL7 v2 conversion.
+    \end{itemize}
+    \item Google Cloud services
+    
+\end{itemize}
+\subsubsection{B. Identity \& Access management Dependencies}
+\begin{itemize}
+    \item Azure \begin{itemize}
+        \item Azure AD 
+        \item Azure AD connect 
+        \item Azure B2C
+    \end{itemize}
+    \item On-prem AD
+\end{itemize}
+\subsubsection{C. Application \& SaaS Dependencies}
+\begin{itemize}
+    \item GitHub
+    \item Microsoft Teams
+    \item Slack
+\end{itemize}
+\subsubsection{D. Security \& Monitoring Dependencies}
+\begin{itemize}
+    \item Cisco \begin{itemize}
+        \item Cisco ASA firewall, last firmware update from 2020 - legacy
+        \item multiple managed Cisco ethernet switches
+        \item VPN - Cisco any connect.
+        \item VPN - Site-to-Site 
+    \end{itemize}
+    
+\end{itemize}
+
+\subsubsection{E. Data processing \& Clinical workflow Dependencies}
+\begin{itemize}
+    \item Azure \begin{itemize}
+        \item Azure Blob storage
+        \item Azure CosmosDB
+    \end{itemize}
+    \item Custom solutions \begin{itemize}
+        \item C++ device-configuration tool(local)
+        \item HL7v2 to JSON translation scripts running in Azure functions
+    \end{itemize}
+    \item Microsoft \begin{itemize}
+        \item OneDrive
+        \item SharePoint
+    \end{itemize}
+    \item DICOM handling
+\end{itemize}
+
+\subsubsection{F. Development and Tooling Dependencies}
+\begin{itemize}
+    \item GitHub 
+    \item Terraform
+    
+\end{itemize}
+
+
 \subsection{Current providers and dependency severity}  %european alternatives klares i det afsnit 
+%convert dependency mapping to an actionable analysis
+
+
+
+\begin{table}[htb]
+\centering
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|l|l|l|c|c|c|}
+\hline
+\textbf{Provider / Service} &
+\textbf{Jurisdiction} &
+\textbf{Area} &
+\textbf{Criticality} &
+\textbf{Sov. Risk} &
+\textbf{Lock-in}\\
+\hline
+
+Microsoft Azure & US & Cloud compute/storage    & High & High       & X      \\\hline
+Azure AD / B2C  & US & Identity management      & High & High       & X      \\\hline
+Microsoft 365   & US & Collaboration \& files   & High & High       & X      \\\hline
+GitHub          & US & Source code / CI         & High & High       & X      \\\hline
+Cisco ASA / VPN & US & Network perimeter        & High & Medium     & X      \\\hline
+Cosmos DB       & US & Clinical metadata        & High & High       & X      \\\hline
+Azure Functions & US & HL7 ingestion            & High & High       & X      \\\hline
+Slack           & US & Communication (legacy)   & Medium & Medium   & X      \\\hline
+Google Cloud    & US & Analytics / telemetry    & Medium & High     & X      \\\hline
+On-prem AD      & EU & Manufacturing IAM        & High & Low        & X      \\\hline
+Mediscan tools  & EU & Device config            & Medium & Low      & X      \\\hline
+AnyConnect VPN  & US & Remote access            & High & Medium     & X      \\
+\hline
+\end{tabular}
+\caption{Summary of current providers and sovereignty-related dependency severity.}
+\label{tab:dependency}
+\end{table}
+
+%format the tabler later, use other names for Area description - remember lock in
+
+In table: \ref{tab:dependency} the columns, \textit{Criticality} refers to the companys current 
+depency on the current implementation. \textit{Sovereignty} Risk explains how much control the company loses
+over its assets, as they are hosted by these provices, and lastly \textit{Lock-in} asks the question:
+\textit{"how difficult would it be for the company to replace this service if we needed to?"}.
+
+%omformuler
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 %this is where we translate the technology landscape into sovereignty risks. 

@@ -10,9 +10,15 @@
 \contentsline {section}{\numberline {4}Dependency Analysis}{7}{}%
 \contentsline {subsection}{\numberline {4.1}Purpose}{7}{}%
 \contentsline {subsection}{\numberline {4.2}Dependency mapping}{7}{}%
-\contentsline {subsection}{\numberline {4.3}Current providers and dependency severity}{7}{}%
-\contentsline {section}{\numberline {5}Risk Assessment}{8}{}%
-\contentsline {section}{\numberline {6}EU-Alternatives}{8}{}%
-\contentsline {section}{\numberline {7}Comparison of current and proposed solution}{8}{}%
-\contentsline {section}{\numberline {8}recommended migration strategy}{8}{}%
-\contentsline {section}{\numberline {9}conclusion}{8}{}%
+\contentsline {subsubsection}{\numberline {4.2.1}A. Cloud infrastructre Dependencies}{7}{}%
+\contentsline {subsubsection}{\numberline {4.2.2}B. Identity \& Access management Dependencies}{7}{}%
+\contentsline {subsubsection}{\numberline {4.2.3}C. Application \& SaaS Dependencies}{7}{}%
+\contentsline {subsubsection}{\numberline {4.2.4}D. Security \& Monitoring Dependencies}{7}{}%
+\contentsline {subsubsection}{\numberline {4.2.5}E. Data processing \& Clinical workflow Dependencies}{7}{}%
+\contentsline {subsubsection}{\numberline {4.2.6}F. Development and Tooling Dependencies}{8}{}%
+\contentsline {subsection}{\numberline {4.3}Current providers and dependency severity}{8}{}%
+\contentsline {section}{\numberline {5}Risk Assessment}{9}{}%
+\contentsline {section}{\numberline {6}EU-Alternatives}{9}{}%
+\contentsline {section}{\numberline {7}Comparison of current and proposed solution}{9}{}%
+\contentsline {section}{\numberline {8}recommended migration strategy}{9}{}%
+\contentsline {section}{\numberline {9}conclusion}{9}{}%
