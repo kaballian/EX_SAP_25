@@ -12,17 +12,66 @@ quality asurance. These include
     \item On-prem EU-local infrastructre, there the whole it system is segmented into various sub networks, for engineering, 
     manufacturing and servers. 
     \item Local AD controllers, running on older operating systems, with weak overall governance
-    \item weak network security regarding hardware, older switches with no updates
-    \item no MFA and relying on password update rotations
+    \item Weak network security regarding hardware, older switches with no updates
+    \item No MFA and relying on password update rotations
 \end{itemize}
 
 The infrastructre inherited from Mediscan, shows strong prefence to local storage and authentication along with a 
 typical product first approach, where cynersecurity is seen as a hinderance. 
 
-\subsection{HealthSync technology landscape}
+\subsection{HealthSync Mobile's technology landscape}
+HSM oprates a rather modern techonology environment, based in the new cloud computing era. With a heavy reliance
+on popular service providers such as the Microsoft Azure suite, Google cloud and other Saas products. 
+These include:
+\begin{itemize}
+    \item An extensize implementation of Azure services such as: AD, kubernetes, Cosmos DB, PostgreSQL, Key Vault, Api 
+    management, blob storage and monitor + application insights.
+    \item Heavy reliance on CI/CD pipelines and API updates, from non-EU cloud hosted services. 
+    \item JSON/WIRE-formatted data.
+    \item Enforced MFA, and OAtuh2 + OpenID for access to apps
+\end{itemize}
+
+HSM's modern Technology stack, which histroically has granted them the capability for rapid expansion and growth
+comes at the cost of strong ties to non-EU governed cloud services. Which could become subject to outside EU regulation.
+
 
 
 \subsection{The hybrid environment post merger}
+The post-merger leaves LHT with a partially integrated and partially improved hybrid network, currently consisting of:
+\begin{itemize}
+    \item The legacy on-prem VLAN of Mediscan's solution for manufacturing and engineering
+    \item HSM's Azure environment and dependencies
+    \item Site-to-site VPN between the two company environments
+
+\end{itemize}
+Inconsistent and overlapping infrastructures creates uncertain flow between different parts of
+the company. This poses unknown and unmitigated risks, which could be leveraged as attack vectors 
+and entry points.  
+
+% Additional complexities regarding legislation
+% both inside and outside of the EU.
+
+
+\subsection{Identity and Access management} %D3.1 D3.2'
+An important integration issue is the overlapping domains, which results in some users need 
+separate accounts to access multiple services. This leads to multiple services for the same purpose.
+This also introduces conflicting policies.
+
+\begin{itemize}
+    \item Some users having multiple accounts, both on-prem and cloud.
+    \item Azure AD policy, excludes the use of legacy hardware primarily found in Mediscan
+    \item Inconsistent access rollout to internal file services such as Sharepoint.
+\end{itemize}
+
+Unnecessarily complicated access controls, which would require significant changes to the operation
+of the company infrastructre.
+
+
+% for risk assessment
+% And because no company managed password manager
+% has been implemented, this increases d
+
+
 
 
 

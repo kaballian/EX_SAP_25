@@ -4,11 +4,15 @@
 \contentsline {section}{\numberline {2}Introduction}{4}{}%
 \contentsline {section}{\numberline {3}Current Technology and Service Landscape}{5}{}%
 \contentsline {subsection}{\numberline {3.1}Mediscan technology landscape }{5}{}%
-\contentsline {subsection}{\numberline {3.2}HealthSync technology landscape}{5}{}%
+\contentsline {subsection}{\numberline {3.2}HealthSync Mobile's technology landscape}{5}{}%
 \contentsline {subsection}{\numberline {3.3}The hybrid environment post merger}{5}{}%
-\contentsline {section}{\numberline {4}Dependency Analysis}{6}{}%
-\contentsline {section}{\numberline {5}Risk Assessment}{7}{}%
-\contentsline {section}{\numberline {6}EU-Alternatives}{7}{}%
-\contentsline {section}{\numberline {7}Comparison of current and proposed solution}{7}{}%
-\contentsline {section}{\numberline {8}recommended migration strategy}{7}{}%
-\contentsline {section}{\numberline {9}conclusion}{7}{}%
+\contentsline {subsection}{\numberline {3.4}Identity and Access management}{6}{}%
+\contentsline {section}{\numberline {4}Dependency Analysis}{7}{}%
+\contentsline {subsection}{\numberline {4.1}Purpose}{7}{}%
+\contentsline {subsection}{\numberline {4.2}Dependency mapping}{7}{}%
+\contentsline {subsection}{\numberline {4.3}Current providers and dependency severity}{7}{}%
+\contentsline {section}{\numberline {5}Risk Assessment}{8}{}%
+\contentsline {section}{\numberline {6}EU-Alternatives}{8}{}%
+\contentsline {section}{\numberline {7}Comparison of current and proposed solution}{8}{}%
+\contentsline {section}{\numberline {8}recommended migration strategy}{8}{}%
+\contentsline {section}{\numberline {9}conclusion}{8}{}%
