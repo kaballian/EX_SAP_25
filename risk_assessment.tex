@@ -5,13 +5,53 @@ figure: \ref{fig:risk_v_impact}. This model is comprised of nine sectons, each o
 severity level, which ranges from low to critial. This is based on the likehood of occurence
 and the impact on the company, whether it be operational, legal or stategic. 
 
+The axis of the model are impact and likehood, 
 
+
+%jeg ved ikke om det er lovligt at bruge et billede uden at sige hvor jeg har det fra??
 \begin{figure}[!htb]
     \centering
     \includegraphics[width=0.8\textwidth]{risk_matrix.png}
-    \caption{risk vs impact matrix}
+    \caption{risk vs impact matrix, this is used to visually position LHT's risks}
     \label{fig:risk_v_impact}
 \end{figure}
+
+
+From this model it is possible to construct a table of the risks, pertaining to the 
+current providers and dependency severity, found in table: \ref{tab:dependency} following
+the Methodology: $risk = Likelihood \cdot Impact $. The basis for this Methodology can be
+found at OWASP \cite{OWASP}
+
+
+
+
+\begin{table}[htb]
+\centering
+\renewcommand{\arraystretch}{1.2}
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+\textbf{Provider / Service} &\textbf{Likelihood} &\textbf{Impact} &
+\textbf{Severity} &\textbf{Justification}\\
+\hline
+
+Microsoft Azure &  &    &  &           \\\hline
+Azure AD / B2C  &  &    &  &           \\\hline
+Microsoft 365   &  &    &  &           \\\hline
+GitHub          &  &    &  &           \\\hline
+Cisco ASA / VPN &  &    &  &         \\\hline
+Cosmos DB       &  &    &  &           \\\hline
+Azure Functions &  &    &  &           \\\hline
+Slack           &  &    &  &       \\\hline
+Google Cloud    &  &    &  &         \\\hline
+On-prem AD      &  &    &  &            \\\hline
+Mediscan tools  &  &    &  &          \\\hline
+AnyConnect VPN  &  &    &  &         \\
+\hline
+\end{tabular}
+\caption{Summary of current providers and sovereignty-related dependency severity.}
+\label{tab:risk table}
+\end{table}
+
 
 
 %brug en blød risk/impact matrix til den generelle fremgang,

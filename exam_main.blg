@@ -1,0 +1,15 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is 'exam_main.blg'
+[116] biber-MSWIN64:340> INFO - === 
+[150] Biber.pm:419> INFO - Reading 'exam_main.bcf'
+[231] Biber.pm:979> INFO - Found 1 citekeys in bib section 0
+[241] Biber.pm:4419> INFO - Processing section 0
+[249] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
+[316] bibtex.pm:1713> INFO - LaTeX decoding ...
+[325] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[352] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[352] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[352] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[353] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[356] bbl.pm:660> INFO - Writing 'exam_main.bbl' with encoding 'UTF-8'
+[357] bbl.pm:763> INFO - Output to exam_main.bbl
