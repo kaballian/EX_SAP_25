@@ -5,6 +5,7 @@
 \contentsline {section}{\numberline {3}Current Technology and Service Landscape}{5}{}%
 \contentsline {section}{\numberline {4}Dependency Analysis}{6}{}%
 \contentsline {section}{\numberline {5}Risk Assessment}{7}{}%
-\contentsline {section}{\numberline {6}Comparison of current and proposed solution}{7}{}%
-\contentsline {section}{\numberline {7}recommended migration strategy}{7}{}%
-\contentsline {section}{\numberline {8}conclusion}{7}{}%
+\contentsline {section}{\numberline {6}EU-Alternatives}{7}{}%
+\contentsline {section}{\numberline {7}Comparison of current and proposed solution}{7}{}%
+\contentsline {section}{\numberline {8}recommended migration strategy}{7}{}%
+\contentsline {section}{\numberline {9}conclusion}{7}{}%
