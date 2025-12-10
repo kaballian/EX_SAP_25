@@ -4,7 +4,7 @@ alternatives. To do this, the requirements can be broken down into different fun
 Where each area is corresponds to a dependency. 
 
 \begin{itemize}
-    \item Identity \& Accessmanagement - The focus here is employeee authentication and identity
+    \item Identity \& Access Management - The focus here is employeee authentication and identity
     MFA, employee and customer identity management with AD features 
     \item Cloud compute \& Hosting - To replace services currently held by Azure, 
     which includes API hosting, data ingestion, functions and kubernetes like features
@@ -16,7 +16,7 @@ Where each area is corresponds to a dependency.
     are email, documents, internal communication, file storage and file sharing.
     \item Security \& Monitoring - A replacement for Cisco products, 
     should be able to prove services such as VPN, SIEM, logging and zero-trust capabilites.
-    \item Patient/customer identity \& - A replacement for Azure B2C, which handles App user 
+    \item Patient/customer identity - A replacement for Azure B2C, which handles App user 
     accounts and authentication. Must be able to be integrated into applications.
     \item Legacy On-prem Replacement \& Hybrid Integration - Current setup implements physical SQL servers, legacy SMB shares 
     and physical AD. The AD should be integrated with the IAM service, and legacy servers should be 
@@ -24,7 +24,7 @@ Where each area is corresponds to a dependency.
 \end{itemize}
 
 
-With all the functional areas, which LHT relies on, outlined, the next step is
+With all the functional areas, which LHT relies on, outlined the next step is
 identify and pick european service providers, who can satisfy the different requirements.
 In order to minimize risk and impact, solutions who implement multiple services into
 a single provider, such a Azure does, is preferable, however this also brings 
@@ -33,15 +33,29 @@ some of the vendor lock-in back into the equation.\\
 European alternatives are listed below, 
 
 \begin{itemize}
-    \item Identity \& Accessmanagement -  
-    \item Cloud compute \& Hosting - 
-    \item Data Storage \& processing - 
-    \item Development \& DevOps - 
-    \item Collaboration \& Productivity tools - 
-    \item Security \& Monitoring - 
-    \item Patient/customer identity \& - 
-    \item Legacy On-prem Replacement \& Hybrid Integration - 
+    \item Identity \& Access Management - Univention, a German based IAM solution, 
+    that can handle AD, and their IAM service NUBUS.  
+    \item Cloud compute \& Hosting - Scaleway, a French based cloud compute company, which
+    includes virtual machines and kubernetes abilities. With data residency inside european borders.
+    \item Data Storage \& processing - This requirement can also be delivered by Scaleway, as they
+    also provide object storage of large amounts of data aswell as block storage.  
+    \item Development \& DevOps - general CI/CD operations can be hosted in a GIT server,
+    hosted by Scaleway.
+    \item Collaboration \& Productivity tools - LibreOffice is an latvian alternative to the
+    Microsoft office suite. As for collaboration tools, NextCloud, which originates from Germany.
+    \item Security \& Monitoring - WithSecure from Finland, An XDR solution is chosen, because we want
+    more than just an antivirus at enterprise level. Along with LogPoint, a Danish company, which is a 
+    SIEM solution, which is an information correlation service.
+    \item Patient/Customer identity - Univention's NUBUS has an integration with keyCloak, which is 
+    open-source, that supports OpenID and OAuth2. Which can be self hosted. 
+    \item Legacy On-prem Replacement \& Hybrid Integration - The hardware server offings in europe,
+    is still in its infancy, a japanese alternative from Fujitsu could be considered.
 \end{itemize}
 
+These proposed solutions and how they stack up against the current implementation will be discussed in the next sectiton.
 
+%univention
+%scaleway
 %assume breach, verify explicitly 
+
+% HUSK CITES

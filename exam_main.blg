@@ -1,15 +1,15 @@
 [0] Config.pm:307> INFO - This is Biber 2.19
 [0] Config.pm:310> INFO - Logfile is 'exam_main.blg'
-[77] biber-MSWIN64:340> INFO - === 
-[104] Biber.pm:419> INFO - Reading 'exam_main.bcf'
-[173] Biber.pm:979> INFO - Found 5 citekeys in bib section 0
-[183] Biber.pm:4419> INFO - Processing section 0
-[192] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
-[249] bibtex.pm:1713> INFO - LaTeX decoding ...
-[255] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
-[291] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[292] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[292] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
-[292] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
-[297] bbl.pm:660> INFO - Writing 'exam_main.bbl' with encoding 'UTF-8'
-[299] bbl.pm:763> INFO - Output to exam_main.bbl
+[70] biber-MSWIN64:340> INFO - === 
+[91] Biber.pm:419> INFO - Reading 'exam_main.bcf'
+[153] Biber.pm:979> INFO - Found 6 citekeys in bib section 0
+[162] Biber.pm:4419> INFO - Processing section 0
+[171] Biber.pm:4610> INFO - Looking for bibtex file 'references.bib' for section 0
+[209] bibtex.pm:1713> INFO - LaTeX decoding ...
+[228] bibtex.pm:1519> INFO - Found BibTeX data source 'references.bib'
+[265] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[265] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[265] Biber.pm:4239> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'en-US'
+[266] Biber.pm:4245> INFO - No sort tailoring available for locale 'en-US'
+[272] bbl.pm:660> INFO - Writing 'exam_main.bbl' with encoding 'UTF-8'
+[274] bbl.pm:763> INFO - Output to exam_main.bbl

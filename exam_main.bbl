@@ -19,6 +19,35 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
+    \entry{RISKMATRIX}{online}{}
+      \name{author}{1}{}{%
+        {{hash=38d8b6a506d39ead683086c25f6ac132}{%
+           family={{AlertMedia}},
+           familyi={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{38d8b6a506d39ead683086c25f6ac132}
+      \strng{fullhash}{38d8b6a506d39ead683086c25f6ac132}
+      \strng{bibnamehash}{38d8b6a506d39ead683086c25f6ac132}
+      \strng{authorbibnamehash}{38d8b6a506d39ead683086c25f6ac132}
+      \strng{authornamehash}{38d8b6a506d39ead683086c25f6ac132}
+      \strng{authorfullhash}{38d8b6a506d39ead683086c25f6ac132}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{What is a Risk Matrix how to use in your business}
+      \field{urlday}{11}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.alertmedia.com/blog/risk-matrix/
+      \endverb
+      \verb{url}
+      \verb https://www.alertmedia.com/blog/risk-matrix/
+      \endverb
+    \endentry
     \entry{OWASP}{online}{}
       \name{author}{1}{}{%
         {{hash=24b95a7fdad5a850196cd87546dcc70b}{%
@@ -31,8 +60,8 @@
       \strng{authorbibnamehash}{24b95a7fdad5a850196cd87546dcc70b}
       \strng{authornamehash}{24b95a7fdad5a850196cd87546dcc70b}
       \strng{authorfullhash}{24b95a7fdad5a850196cd87546dcc70b}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{OWASP Risk Rating Methodology}
@@ -60,8 +89,8 @@
       \strng{authorbibnamehash}{9f5c26294879e18d4353b9a48f4fe5aa}
       \strng{authornamehash}{9f5c26294879e18d4353b9a48f4fe5aa}
       \strng{authorfullhash}{9f5c26294879e18d4353b9a48f4fe5aa}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{ISO/IEC 27001:2022}
@@ -89,8 +118,8 @@
       \strng{authorbibnamehash}{974d626296d6e946002efb0e2c72fc84}
       \strng{authornamehash}{974d626296d6e946002efb0e2c72fc84}
       \strng{authorfullhash}{974d626296d6e946002efb0e2c72fc84}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Cisco Adaptive Security Appliance Software and Firepower Threat Defense Software Web Services Information Disclosure Vulnerability}
@@ -119,8 +148,8 @@
       \strng{authornamehash}{e8aef3b978e0ffd060f014359a362e65}
       \strng{authorfullhash}{e8aef3b978e0ffd060f014359a362e65}
       \field{extraname}{1}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{CLOUD Act}
@@ -149,8 +178,8 @@
       \strng{authornamehash}{e8aef3b978e0ffd060f014359a362e65}
       \strng{authorfullhash}{e8aef3b978e0ffd060f014359a362e65}
       \field{extraname}{2}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Foreign Intelligence Surveillance Act, FISA section 702}

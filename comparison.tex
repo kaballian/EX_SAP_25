@@ -1,3 +1,54 @@
-\section{Comparison of current and proposed solution}
+\section{Comparison of current and proposed solutions}
+The Suitablility of these EU derived alternatives will here be evaulated against the already 
+implemented solution, in terms of technical compatability, which reflects how well this
+solution fits into the current LHT environment. And vendor maturity, which assesses the stability 
+of particular provider regarding support, regulation compliance and long-term viability.
 
-%bliver måske integreret ind i EU alternatives
+\subsection{Technical Compatability}
+Technical compatability assesses the difficulty of implementing the proposed solutions,
+into the environment of LHT. Replacing all Azure services and with suitable replacements,
+which offers equivalent services, in this case Univention for identity management and Scaleway
+for hosting for cloud computte and storage, reduces the implementation effort, thus increases the chance 
+of a smooth migration
+
+Examples of this is the Active directory from Univention, which replaces Azure AD, with minimal
+changes to already implemented authentication dependencies. Univention also provides
+NUBUS with keycloak, which preserves the use of OAuth2 and OpenID for
+customer usageage. While changing the underlying structure to a self-hosted environment,
+located in the EU. 
+
+Distributing the services across a number of different EU providers, increases the 
+flexibility and should reduce the long term vendor lock-in. An example of this
+is ScaleWay, which can do both cloud compute, data storage and processing.
+But also host a GIT server and other required developer tooling, but with smaller
+requirements for future changes. 
+
+
+
+
+\subsection{Vendor Compatability}
+Vendor maturity assesses the long-term reliablity, stability, regulation compliance and support.
+It is imperative for LHT, that 
+
+
+%SLET
+Vendor maturity evaluates the long-term reliability, stability, governance model, 
+and support capabilities of the proposed EU-based providers. Mature vendors reduce 
+operational uncertainty, lower the risk of service disruption, and provide clearer 
+guarantees regarding security, compliance, and roadmap stability.
+
+In this regard, both Univention and Scaleway demonstrate strong maturity within the 
+European technology landscape. Univention has a long-standing presence in the public sector and enterprise markets, with a proven track record of maintaining its identity platform and supporting large-scale Active Directory migrations. Its governance model is fully EU-based, and the long-term availability of UCS and Keycloak integrations is reinforced by active open-source communities and transparent development practices. This increases confidence in the sustainability of the solution and reduces the likelihood of unexpected product changes or jurisdictional risks.
+
+Scaleway likewise represents a technically mature and operationally stable EU cloud 
+provider, offering compute, storage, and networking services that align closely with 
+established European regulatory frameworks. As an established IaaS provider hosting
+ thousands of workloads, Scaleway maintains certifications and a clear commitment to 
+ GDPR-aligned cloud governance. Their multi-service portfolio also contributes to vendor
+  stability, ensuring that LHT is not dependent on a niche or single-product supplier.
+
+Overall, the proposed alternatives come from vendors with sufficient operational
+ maturity and market presence to act as long-term strategic components in LHT's architecture. 
+ By selecting EU-governed providers with transparent roadmaps and strong support ecosystems, 
+ LHT reduces dependency risk, improves strategic autonomy, and avoids the extraterritorial 
+ exposure associated with non-EU cloud providers.
