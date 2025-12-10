@@ -1,1 +1,47 @@
 \section{EU-Alternatives}
+To strenghten digital Sovereignty, it is imperative that services gets migrated to EU friendly
+alternatives. To do this, the requirements can be broken down into different functional areas.
+Where each area is corresponds to a dependency. 
+
+\begin{itemize}
+    \item Identity \& Accessmanagement - The focus here is employeee authentication and identity
+    MFA, employee and customer identity management with AD features 
+    \item Cloud compute \& Hosting - To replace services currently held by Azure, 
+    which includes API hosting, data ingestion, functions and kubernetes like features
+    \item Data Storage \& processing - Azure blob and CosmosDB, currently handle critical functions such as
+    HL7v2 conversion, DICOM data uploads. Alternatives should have physical address in the EU, with strong encryption
+    \item Development \& DevOps - This should include services with the ability to host source, CI/CD pipeline, 
+    issue tracking, version control and support GIT based workflow.
+    \item Collaboration \& Productivity tools - To replace service commonly provided by Microsoft. Services here
+    are email, documents, internal communication, file storage and file sharing.
+    \item Security \& Monitoring - A replacement for Cisco products, 
+    should be able to prove services such as VPN, SIEM, logging and zero-trust capabilites.
+    \item Patient/customer identity \& - A replacement for Azure B2C, which handles App user 
+    accounts and authentication. Must be able to be integrated into applications.
+    \item Legacy On-prem Replacement \& Hybrid Integration - Current setup implements physical SQL servers, legacy SMB shares 
+    and physical AD. The AD should be integrated with the IAM service, and legacy servers should be 
+    integrated into a single physical setup with a cloud backup, along with tightened physical security access.
+\end{itemize}
+
+
+With all the functional areas, which LHT relies on, outlined, the next step is
+identify and pick european service providers, who can satisfy the different requirements.
+In order to minimize risk and impact, solutions who implement multiple services into
+a single provider, such a Azure does, is preferable, however this also brings 
+some of the vendor lock-in back into the equation.\\
+
+European alternatives are listed below, 
+
+\begin{itemize}
+    \item Identity \& Accessmanagement -  
+    \item Cloud compute \& Hosting - 
+    \item Data Storage \& processing - 
+    \item Development \& DevOps - 
+    \item Collaboration \& Productivity tools - 
+    \item Security \& Monitoring - 
+    \item Patient/customer identity \& - 
+    \item Legacy On-prem Replacement \& Hybrid Integration - 
+\end{itemize}
+
+
+%assume breach, verify explicitly 
