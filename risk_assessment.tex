@@ -14,7 +14,7 @@ increases in the steps, low, medium and high
     \centering
     \includegraphics[width=0.8\textwidth]{risk_matrix.png}
     \caption{risk vs impact matrix, this is used to visually position LHT's risks. The 
-    The product of this matrix is indicated as \textit{severity} in table \ref{tab:risk table}, 
+    The product of this matrix is indicated as \textit{severity} in table \ref{tab:risk_table}, 
     picture from AlertMedia: \cite{RISKMATRIX}}
     \label{fig:risk_v_impact}
 \end{figure}
@@ -39,7 +39,7 @@ dependency, will bring negative consequences for LHT as a whole?.
 \textbf{Severity} &\textbf{Justification}\\
 \hline
 
-Microsoft Azure &  LOW & HIGH  & MEDIUM & Given the size of Microsoft. Constant resources are assigned to maintain Azure.\\\hline
+Microsoft Azure &  LOW & HIGH  & MEDIUM & \makecell{Given the size of Microsoft.\\ Constant resources are assigned to maintain Azure.}\\\hline
 Azure AD / B2C  &  LOW & HIGH & MEDIUM & Same justification as Microsoft Azure.          \\\hline
 Microsoft 365   &  MEDIUM & LOW & LOW & 365 includes the office suite, thus they OutLook, where a lot of attack comes from phising.\\\hline
 GitHub          &  MEDIUM & MEDIUM  & MEDIUM & The importance of GITHUB as a whole, makes it a desirable target.\\\hline
@@ -54,8 +54,17 @@ Site-to-site VPN&  LOW  & HIGH & MEDIUM  & This is traffic on-prem to azure, if 
 \hline
 \end{tabular}
 \caption{Summary of current providers and sovereignty-related dependency severity. }
-\label{tab:risk table}
+\label{tab:risk_table}
 \end{table}
+
+
+
+
+
+
+
+
+
 
 Likelyhood can then further be broken down into questions like 
 \begin{itemize}
