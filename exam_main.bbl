@@ -48,6 +48,124 @@
       \verb https://owasp.org/www-community/OWASP_Risk_Rating_Methodology
       \endverb
     \endentry
+    \entry{ISO27001}{online}{}
+      \name{author}{1}{}{%
+        {{hash=9f5c26294879e18d4353b9a48f4fe5aa}{%
+           family={{www.iso.org}},
+           familyi={w\bibinitperiod}}}%
+      }
+      \strng{namehash}{9f5c26294879e18d4353b9a48f4fe5aa}
+      \strng{fullhash}{9f5c26294879e18d4353b9a48f4fe5aa}
+      \strng{bibnamehash}{9f5c26294879e18d4353b9a48f4fe5aa}
+      \strng{authorbibnamehash}{9f5c26294879e18d4353b9a48f4fe5aa}
+      \strng{authornamehash}{9f5c26294879e18d4353b9a48f4fe5aa}
+      \strng{authorfullhash}{9f5c26294879e18d4353b9a48f4fe5aa}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{ISO/IEC 27001:2022}
+      \field{urlday}{11}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.iso.org/standard/27001
+      \endverb
+      \verb{url}
+      \verb https://www.iso.org/standard/27001
+      \endverb
+    \endentry
+    \entry{ASAfirewall}{online}{}
+      \name{author}{1}{}{%
+        {{hash=974d626296d6e946002efb0e2c72fc84}{%
+           family={{sec.cloudapps.cisco.com}},
+           familyi={s\bibinitperiod}}}%
+      }
+      \strng{namehash}{974d626296d6e946002efb0e2c72fc84}
+      \strng{fullhash}{974d626296d6e946002efb0e2c72fc84}
+      \strng{bibnamehash}{974d626296d6e946002efb0e2c72fc84}
+      \strng{authorbibnamehash}{974d626296d6e946002efb0e2c72fc84}
+      \strng{authornamehash}{974d626296d6e946002efb0e2c72fc84}
+      \strng{authorfullhash}{974d626296d6e946002efb0e2c72fc84}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Cisco Adaptive Security Appliance Software and Firepower Threat Defense Software Web Services Information Disclosure Vulnerability}
+      \field{urlday}{11}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-info-disclose-9eJtycMB
+      \endverb
+      \verb{url}
+      \verb https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-info-disclose-9eJtycMB
+      \endverb
+    \endentry
+    \entry{CLOUDACT}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e8aef3b978e0ffd060f014359a362e65}{%
+           family={{Government of the United States}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{e8aef3b978e0ffd060f014359a362e65}
+      \strng{fullhash}{e8aef3b978e0ffd060f014359a362e65}
+      \strng{bibnamehash}{e8aef3b978e0ffd060f014359a362e65}
+      \strng{authorbibnamehash}{e8aef3b978e0ffd060f014359a362e65}
+      \strng{authornamehash}{e8aef3b978e0ffd060f014359a362e65}
+      \strng{authorfullhash}{e8aef3b978e0ffd060f014359a362e65}
+      \field{extraname}{1}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{CLOUD Act}
+      \field{urlday}{11}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.justice.gov/criminal/cloud-act-resources
+      \endverb
+      \verb{url}
+      \verb https://www.justice.gov/criminal/cloud-act-resources
+      \endverb
+    \endentry
+    \entry{FISA702}{online}{}
+      \name{author}{1}{}{%
+        {{hash=e8aef3b978e0ffd060f014359a362e65}{%
+           family={{Government of the United States}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{e8aef3b978e0ffd060f014359a362e65}
+      \strng{fullhash}{e8aef3b978e0ffd060f014359a362e65}
+      \strng{bibnamehash}{e8aef3b978e0ffd060f014359a362e65}
+      \strng{authorbibnamehash}{e8aef3b978e0ffd060f014359a362e65}
+      \strng{authornamehash}{e8aef3b978e0ffd060f014359a362e65}
+      \strng{authorfullhash}{e8aef3b978e0ffd060f014359a362e65}
+      \field{extraname}{2}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Foreign Intelligence Surveillance Act, FISA section 702}
+      \field{urlday}{11}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.intel.gov/foreign-intelligence-surveillance-act/fisa-section-702
+      \endverb
+      \verb{url}
+      \verb https://www.intel.gov/foreign-intelligence-surveillance-act/fisa-section-702
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput

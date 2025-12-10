@@ -20,14 +20,14 @@ increases in the steps, low, medium and high
 
 
 From this model it is possible to construct a table of the risks, pertaining to the 
-current providers and dependency severity, found in table: \ref{tab:dependency} following
+current providers and dependency severity, found in table: \ref{tab:dependency}, following
 the Methodology: $risk = Likelihood \cdot Impact $. The basis for this Methodology can be
 found at OWASP\cite{OWASP}. However in this case likelyhood is not only the question, 
-\textit{"will the service break?"}, but also how propable is that any impact on this 
-dependency will create a negative consequence for LHT as a whole?.
+\textit{"will the service break?"}, but also how propable it is, that any impact on this 
+dependency, will bring negative consequences for LHT as a whole?.
 
 
-
+%brug lige simon til at udfylde den her tabel, jeg aner ikke hvad jeg laver
 \begin{table}[!htb]
 \centering
 \renewcommand{\arraystretch}{1.2}
@@ -55,7 +55,6 @@ AnyConnect VPN  &  MED &    &  &         \\
 \label{tab:risk table}
 \end{table}
 
-
 Likelyhood can then further be broken down into questions like 
 \begin{itemize}
     \item Likelihood of legal or jusrisdictional issues
@@ -64,12 +63,71 @@ Likelyhood can then further be broken down into questions like
     \item Likelihood of policy shifting 
 \end{itemize}
 
+Given the overall dependency on software and services foreign to the EU, being mainly
+US based, and given current political climates. It becomes increasingly difficult to 
+narrow down the probablity that foreign governments, might try to leverage services
+such as these, as political tools.
+
 
 %brug en blød risk/impact matrix til den generelle fremgang,
 %herefter link til https://owasp.org/www-community/OWASP_Risk_Rating_Methodology
 %og giv et eksempel på hvordan det kunne se ud der fra, ikke nødvendigt at bruge billeder
 %nævn at fokuset på rapporten er ikke risk management, men digital sovereignty
 
+\subsection{Physical Vulnerabilities}
+\subsubsection{Viby site}
+The Viby office, inherited from HSM, which implemented rather modern 
+security practices. They rely mainly on Azure as their infrastructre 
+environment, thus, does not indicate any significant physical security risk.
+However, since physical description of their offices has been supplied, it can only
+be assumed that they have implemened a minimum of physical office security. This
+includes thing like:
+\begin{itemize}
+    \item No physical servers
+    \item light network equipment, routers/firewall
+    \item secured doors, with keycards
+    \item auto-lock screensavers
+    \item CCTV of building
+\end{itemize} 
+
+It can only be assumed, due to the size and number of employees at HSM pre-merger, 
+that the office was located in a shared-office building. This also points at things
+they most certainly didn't implement
+
+\begin{itemize}
+    \item Biometric access
+    \item Air-gapped security zones
+    \item Cameras inside the offices
+    \item Monitoring desk environments
+    \item audit trails
+\end{itemize}
+    
+These are things that more likely relate to ISO 27001\cite{ISO27001}, style physical access control,
+which, due to their environments and workflows, most likely didn't require.
+
+\subsubsection{Lystrup site}
+The Lystrup manufacturing site, inherited from Mediscan, with dedicated engineering and
+manufacturing environment, though it has been updated and improved over time. It still 
+exposes several weakness, which has arisen from aging equipment.
+\begin{itemize}
+    \item Basic server room with no biometric access, meaning anyone with a keycard
+    can enter the room
+    \item Basic UPS with a ambient cooling and a mix of new and old equipment. No temperature
+    of server equipment impacts lifespan and reliability
+    \item Cisco ASA firewall, unpatched since 2020. This particular model of switch is 
+    vulnerable to a remote attack, which enables an attacker to gain memory content\cite{ASAfirewall}
+    \item legacy on-prem AD with no MFA, can be exploited to gain unrestricted access
+    \item Physical access also allow the physical removal of decades of documentation, which
+    could lead to IP theft.
+\end{itemize}
+
+
+\subsection{How Identified Risks Impacts LHT's Digital Soverignty }
+The risks highlighted shows that the current landscape of LHT's sovereignty, is primarily
+dictated by foreign, non-EU cload platforms, which includes a wide span of roles and services.
+From the development environments, to azure AD and data processing, because these are US based
+companies, they have to comply with legislation, such as the CLOUD act\cite{CLOUDACT} 
+and FISA\_702\cite{FISA702}
 
 
 %nævn det med cisco ASA FIREPOWER VULNERABILITY
