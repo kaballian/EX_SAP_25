@@ -1,6 +1,6 @@
 \babel@toc {english}{}\relax 
-\contentsline {section}{\numberline {1}Executive Summary}{3}{}%
-\contentsline {subsection}{\numberline {1.1}overall conclusion}{3}{}%
+\contentsline {section}{\numberline {1}Executive Summary(Abstract)}{3}{}%
+\contentsline {subsection}{\numberline {1.1}Overall Conclusion}{3}{}%
 \contentsline {section}{\numberline {2}Introduction}{4}{}%
 \contentsline {subsection}{\numberline {2.1}Abbreviations}{4}{}%
 \contentsline {section}{\numberline {3}Current Technology and Service Landscape}{5}{}%
@@ -26,6 +26,4 @@
 \contentsline {section}{\numberline {6}EU-Alternatives}{11}{}%
 \contentsline {section}{\numberline {7}Comparison of current and proposed solutions}{12}{}%
 \contentsline {subsection}{\numberline {7.1}Technical Compatability}{12}{}%
-\contentsline {subsection}{\numberline {7.2}Vendor Compatability}{12}{}%
-\contentsline {section}{\numberline {8}Recommended migration strategy}{13}{}%
-\contentsline {section}{\numberline {9}Conclusion}{13}{}%
+\contentsline {section}{\numberline {8}Conclusion}{13}{}%

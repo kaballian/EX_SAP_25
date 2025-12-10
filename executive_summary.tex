@@ -1,36 +1,40 @@
-\section{Executive Summary}
-The purpose of this report is the examine, expand and define the organizations current 
-dependancy on non-EU technology, evaluate the key risks associated with this direction, analyse
+\section{Executive Summary(Abstract)}
+The purpose of this report is to examine, expand and define the organizations current 
+dependency on non-EU technology, evaluate the key risks associated with this direction, analyse
 and propose EU alternatives. The goal is to identify and map a road to digital Sovereignty.
 
 The current political climate is quite inhospitable and it has become apparent that 
 world leaders make drastic, snap decisions that brings large implication to 
-the technological landscape, where big tech can be leveraged as political
-thus inherently changing the risk of reliance on such servies. Thus companies, with suchs 
+the technological landscape, where big tech can be leveraged as political weapons,
+thus inherently changing the risk of reliance on such servies. Therefore companies, with suchs 
 reliances, risks getting caught in the crossfire.  
 
 Services where there is a heavy reliance, from companies such a \textit{Microsoft}, 
-which hosts Azure \text{Active directory (AD)}, used for identity management and \textit{SharePoint} and \textit{OneDrive}, 
+which hosts Azure \text{Active directory (AD)}, used for identity management, \textit{SharePoint} and \textit{OneDrive}, 
 which Lifeline Health Technologies(LHT) uses as a file sharing service, could suddenly
 become unavailable. 
 
 A loss of this service, which would be tantamount to loss of many years of technological IPs 
 and achievements which could lead to unquantifiable damage to the company. 
-Thus, in this inclimate weather, a EU alternative for these servises, is quintessential. % for a cloud based
+Therefore, in this inclememt weather, a EU alternative for these servises, is quintessential. % for a cloud based
 %backup plan, along with a, yet to be implemented, physical backup. 
 
-The main findings of this report is an overreliance on
+The main findings of this report is an overreliance on:
 \begin{itemize}
     \item Microsoft Azure Services, where cloud hosting is indeterminate and 
-    jurisdictional expose is somewhat vague. Thus EU laws may be hard to apply
-    \item process and regulatory mismatches - Data is easily given up to 3rd party cloud services 
-    without regard for compliance (EU MDR)
-    \item A thorough documentation is needed of other cloud solutions, specifically regarding SaaS tools
+    jurisdictional expose is somewhat vague. Thus EU laws may be hard to apply.
+    \item Process and regulatory mismatches - Data is easily given up to 3rd party cloud services 
+    or foreign governments, without regard for compliance (EU MDR)
+    \item A thorough documentation is needed of other cloud solutions, specifically regarding SaaS tools.
 \end{itemize}
 
-
+Some of the main risks include:
 \begin{itemize}
-    \item main risks
+    \item Overreliance on providers like microsoft Azure services.
+    \item Unsupported operating systems such as Windows Server '12R2, SQL 2016, windows 7 and XP.
+    \item Unmainted local VM's, tightly coupled to on-prem hardware og dongles.  
+    \item Unmainted network equipment.
+    \item Poor physical access control.  
 \end{itemize}
 
 
@@ -38,16 +42,15 @@ Examples for some EU-alternatives :
 \begin{itemize}
     \item Univention - German based software for identity \& access management. A self hosted AD, requiring a virtual machine. 
     Can then handle all authentication, along with other features such as single sign-on(SSO) and multifactor authentication (MFA)
-    \item Scaleway - A cloud hosting service, to host VM's for infrastructre purposes.
+    \item Scaleway - A French based cloud provider, capable of hosting VM's for infrastructre purposes.
+    \item KeyCloak - B2C IAM, which can be self hosted. Supporting OAuth2 and OpenID.
 \end{itemize}
 
-Thus Univention can be hosted by Scaleway, thus removing the dependancy on a Microsoft service.  
-
-In addition, the company's productivity suite, can be replaced by libre-office
-
-
-\subsection{overall conclusion}
-
+ 
+\subsection{Overall Conclusion}
+This report supports the conclusion that an entirely new system, is recommended to be built
+up in parallel, to remove the heavy reliance on non-EU service providers. A gradual transition 
+is adviced, but that is not in the scope of the report.
 
 % \begin{itemize}
 %     \item current orgs dependency on non-EU technology

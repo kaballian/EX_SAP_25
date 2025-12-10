@@ -32,6 +32,7 @@ dependency, will bring negative consequences for LHT as a whole?.
 \begin{table}[!htb]
 \centering
 \renewcommand{\arraystretch}{1.2}
+
 \begin{tabular}{|l|l|l|l|l|}
 \hline
 \textbf{Provider / Service} &\textbf{Likelihood} &\textbf{Impact} &
@@ -46,10 +47,10 @@ Cisco ASA / VPN &  HIGH&  HIGH  & CRITICAL  & The Cisco switch has a known vulne
 Cosmos DB       &  LOW & HIGH   & MEDIUM & This database contains sensitive information sent from device.         \\\hline
 Azure Functions &  LOW & HIGH   & MEDIUM & Hals the upload of customer data and useage of custom function for HL7v2 translation.        \\\hline
 Slack           &  MEDIUM & LOW  & LOW & Should slack be compromised, it is merely an internal communcations channel. No information about sensitive company data being shared using Slack.\\\hline
-Google Cloud    &  LOW & LOW & LOW & only historic use of this service, not noted as critical.      \\\hline
-On-prem AD      &  MED &    &  &            \\\hline
-Mediscan tools  &  HIGH&    &  &          \\\hline
-AnyConnect VPN  &  MED &    &  &         \\
+Google Cloud    &  LOW & LOW & LOW & Only historic use of this service, not noted as critical.      \\\hline
+On-prem AD      &  HIGH & HIGH  & CRITICAL & The likelyhood could be easily reduced by removing known firewall vulnerabilities.\\\hline
+Mediscan tools  &  HIGH & LOW   & MEDIUM   & Mediscan devices are in the hands of users. This increases the chances of exploits being exposed. \\\hline
+Site-to-site VPN&  LOW  & HIGH & MEDIUM  & This is traffic on-prem to azure, if this is compromised, sensitive data can be accessed.\\
 \hline
 \end{tabular}
 \caption{Summary of current providers and sovereignty-related dependency severity. }
@@ -112,11 +113,11 @@ manufacturing environment, though it has been updated and improved over time. It
 exposes several weakness, which has arisen from aging equipment.
 \begin{itemize}
     \item Basic server room with no biometric access, meaning anyone with a keycard
-    can enter the room
+    can enter the room.
     \item Basic UPS with a ambient cooling and a mix of new and old equipment. No temperature
-    of server equipment impacts lifespan and reliability
+    monitoring of server equipment, impacts lifespan and reliability.
     \item Cisco ASA firewall, unpatched since 2020. This particular model of switch is 
-    vulnerable to a remote attack, which enables an attacker to gain memory content\cite{ASAfirewall}
+    vulnerable to a remote attack, which enables an attacker to gain memory content\cite{ASAfirewall}.
     \item legacy on-prem AD with no MFA, can be exploited to gain unrestricted access
     \item Physical access also allow the physical removal of decades of documentation, which
     could lead to IP theft.
