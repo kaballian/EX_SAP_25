@@ -5,14 +5,16 @@ figure: \ref{fig:risk_v_impact}. This model is comprised of nine sectons, each o
 severity level, which ranges from low to critial. This is based on the likehood of occurence
 and the impact on the company, whether it be operational, legal or stategic. 
 
-The axis of the model are impact and likehood, 
+The axis of the model are impact and likehood, where every step out of the axis 
+increases in the steps, low, medium and high
 
 
 %jeg ved ikke om det er lovligt at bruge et billede uden at sige hvor jeg har det fra??
 \begin{figure}[!htb]
     \centering
     \includegraphics[width=0.8\textwidth]{risk_matrix.png}
-    \caption{risk vs impact matrix, this is used to visually position LHT's risks}
+    \caption{risk vs impact matrix, this is used to visually position LHT's risks. The 
+    The product of this matrix is indicated as \textit{severity} in table \ref{tab:risk table}}
     \label{fig:risk_v_impact}
 \end{figure}
 
@@ -20,12 +22,13 @@ The axis of the model are impact and likehood,
 From this model it is possible to construct a table of the risks, pertaining to the 
 current providers and dependency severity, found in table: \ref{tab:dependency} following
 the Methodology: $risk = Likelihood \cdot Impact $. The basis for this Methodology can be
-found at OWASP \cite{OWASP}
+found at OWASP\cite{OWASP}. However in this case likelyhood is not only the question, 
+\textit{"will the service break?"}, but also how propable is that any impact on this 
+dependency will create a negative consequence for LHT as a whole?.
 
 
 
-
-\begin{table}[htb]
+\begin{table}[!htb]
 \centering
 \renewcommand{\arraystretch}{1.2}
 \begin{tabular}{|l|l|l|l|l|}
@@ -34,24 +37,32 @@ found at OWASP \cite{OWASP}
 \textbf{Severity} &\textbf{Justification}\\
 \hline
 
-Microsoft Azure &  &    &  &           \\\hline
-Azure AD / B2C  &  &    &  &           \\\hline
-Microsoft 365   &  &    &  &           \\\hline
-GitHub          &  &    &  &           \\\hline
-Cisco ASA / VPN &  &    &  &         \\\hline
-Cosmos DB       &  &    &  &           \\\hline
-Azure Functions &  &    &  &           \\\hline
-Slack           &  &    &  &       \\\hline
-Google Cloud    &  &    &  &         \\\hline
-On-prem AD      &  &    &  &            \\\hline
-Mediscan tools  &  &    &  &          \\\hline
-AnyConnect VPN  &  &    &  &         \\
+Microsoft Azure &  MED & HIGH  & HIGH   &           \\\hline
+Azure AD / B2C  &  MED & MED &  &           \\\hline
+Microsoft 365   &  LOW &    &  &           \\\hline
+GitHub          &  LOW &    &  &           \\\hline
+Cisco ASA / VPN &  HIGH&    &  &         \\\hline
+Cosmos DB       &  HIGH&    &  &           \\\hline
+Azure Functions &  HIGH&    &  &           \\\hline
+Slack           &  LOW &    &  &       \\\hline
+Google Cloud    &  LOW &    &  &         \\\hline
+On-prem AD      &  MED &    &  &            \\\hline
+Mediscan tools  &  HIGH&    &  &          \\\hline
+AnyConnect VPN  &  MED &    &  &         \\
 \hline
 \end{tabular}
-\caption{Summary of current providers and sovereignty-related dependency severity.}
+\caption{Summary of current providers and sovereignty-related dependency severity. }
 \label{tab:risk table}
 \end{table}
 
+
+Likelyhood can then further be broken down into questions like 
+\begin{itemize}
+    \item Likelihood of legal or jusrisdictional issues
+    \item Likelihood of operational issues
+    \item Likelihood of vulnerabilities regarding network security
+    \item Likelihood of policy shifting 
+\end{itemize}
 
 
 %brug en blød risk/impact matrix til den generelle fremgang,
