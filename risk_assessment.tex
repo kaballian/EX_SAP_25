@@ -1,5 +1,5 @@
 \section{Risk Assessment}
-To anayse how the digital soverignty is impacted LHT's inherited IT-environment, 
+To analyze how the digital soverignty is impacted LHT's inherited IT-environment, 
 a risk assessment is carried out. It is done by using a impact-likelyhood matrix, seen on
 figure: \ref{fig:risk_v_impact}. This model is comprised of nine sectons, each of a 
 severity level, which ranges from low to critial. This is based on the likehood of occurence
@@ -23,15 +23,14 @@ increases in the steps, low, medium and high
 From this model it is possible to construct a table of the risks, pertaining to the 
 current providers and dependency severity, found in table: \ref{tab:dependency}, following
 the Methodology: $risk = Likelihood \cdot Impact $. The basis for this Methodology can be
-found at OWASP\cite{OWASP}. However in this case likelyhood is not only the question, 
-\textit{"will the service break?"}, but also how propable it is, that any impact on this 
-dependency, will bring negative consequences for LHT as a whole?.
+found at OWASP\cite{OWASP}. However in this case, likelyhood aims indicate how propable it is,
+that any impact on this dependency, will bring negative consequences for LHT as a whole.
 
 
 %brug lige simon til at udfylde den her tabel, jeg aner ikke hvad jeg laver
 \begin{table}[!htb]
 \centering
-\renewcommand{\arraystretch}{1.2}
+\renewcommand{\arraystretch}{1}
 
 \begin{tabular}{|l|l|l|l|l|}
 \hline
@@ -39,18 +38,18 @@ dependency, will bring negative consequences for LHT as a whole?.
 \textbf{Severity} &\textbf{Justification}\\
 \hline
 
-Microsoft Azure &  LOW & HIGH  & MEDIUM & \makecell{Given the size of Microsoft.\\ Constant resources are assigned to maintain Azure.}\\\hline
-Azure AD / B2C  &  LOW & HIGH & MEDIUM & Same justification as Microsoft Azure.          \\\hline
-Microsoft 365   &  MEDIUM & LOW & LOW & 365 includes the office suite, thus they OutLook, where a lot of attack comes from phising.\\\hline
-GitHub          &  MEDIUM & MEDIUM  & MEDIUM & The importance of GITHUB as a whole, makes it a desirable target.\\\hline
-Cisco ASA / VPN &  HIGH&  HIGH  & CRITICAL  & The Cisco switch has a known vulnerability, it sits on-prem and this could be exploted for confidential information. \\\hline
-Cosmos DB       &  LOW & HIGH   & MEDIUM & This database contains sensitive information sent from device.         \\\hline
-Azure Functions &  LOW & HIGH   & MEDIUM & Hals the upload of customer data and useage of custom function for HL7v2 translation.        \\\hline
-Slack           &  MEDIUM & LOW  & LOW & Should slack be compromised, it is merely an internal communcations channel. No information about sensitive company data being shared using Slack.\\\hline
-Google Cloud    &  LOW & LOW & LOW & Only historic use of this service, not noted as critical.      \\\hline
-On-prem AD      &  HIGH & HIGH  & CRITICAL & The likelyhood could be easily reduced by removing known firewall vulnerabilities.\\\hline
-Mediscan tools  &  HIGH & LOW   & MEDIUM   & Mediscan devices are in the hands of users. This increases the chances of exploits being exposed. \\\hline
-Site-to-site VPN&  LOW  & HIGH & MEDIUM  & This is traffic on-prem to azure, if this is compromised, sensitive data can be accessed.\\
+Microsoft Azure &  LOW & HIGH  & MEDIUM & \makecell{Given the size of Microsoft.\\ Constant resources are assigned\\ to maintain Azure.}\\\hline
+Azure AD / B2C  &  LOW & HIGH & MEDIUM & \makecell{Same justification as Microsoft Azure.}         \\\hline
+Microsoft 365   &  MEDIUM & LOW & LOW & \makecell{365 includes the office suite, thus they OutLook,\\ where a lot of attack comes from phising.}\\\hline
+GitHub          &  MEDIUM & MEDIUM  & MEDIUM & \makecell{The importance of GITHUB as a whole,\\makes it a desirable target.}\\\hline
+Cisco ASA / VPN &  HIGH&  HIGH  & CRITICAL  & \makecell{The Cisco switch has a known vulnerability\\, it sits on-prem and this could be\\ exploted for confidential information.} \\\hline
+Cosmos DB       &  LOW & HIGH   & MEDIUM & \makecell{This database contains sensitive\\ information sent from device.}       \\\hline
+Azure Functions &  LOW & HIGH   & MEDIUM & \makecell{Hals the upload of customer\\ data and useage of custom function\\ for HL7v2 translation.}   \\\hline
+Slack           &  MEDIUM & LOW  & LOW & \makecell{Should slack be compromised,\\ it is merely an internal communcations channel.\\ No information about sensitive\\ company data being shared using Slack.}\\\hline
+Google Cloud    &  LOW & LOW & LOW & \makecell{Only historic use of this service, not noted as critical. }    \\\hline
+On-prem AD      &  HIGH & HIGH  & CRITICAL & \makecell{The likelyhood could be easily reduced by \\removing known firewall vulnerabilities.}\\\hline
+Mediscan tools  &  HIGH & LOW   & MEDIUM   & \makecell{Mediscan devices are in the hands of users.\\This increases the chances of exploits being exposed.} \\\hline
+Site-to-site VPN&  LOW  & HIGH & MEDIUM  & \makecell{This is traffic on-prem to azure,\\ if this is compromised, \\sensitive data can be accessed.}\\
 \hline
 \end{tabular}
 \caption{Summary of current providers and sovereignty-related dependency severity. }
@@ -65,7 +64,7 @@ Site-to-site VPN&  LOW  & HIGH & MEDIUM  & This is traffic on-prem to azure, if 
 
 
 
-
+\clearpage
 Likelyhood can then further be broken down into questions like 
 \begin{itemize}
     \item Likelihood of legal or jusrisdictional issues
@@ -84,6 +83,27 @@ such as these, as political tools.
 %herefter link til https://owasp.org/www-community/OWASP_Risk_Rating_Methodology
 %og giv et eksempel på hvordan det kunne se ud der fra, ikke nødvendigt at bruge billeder
 %nævn at fokuset på rapporten er ikke risk management, men digital sovereignty
+
+
+
+%GDPR section
+
+\subsection{Regulatory Requirements for Health and Clinical Data}
+Because LHT is a producer of medical devices, that creates data which contains sensitive information about
+clients. This puts LHT in a position, where the data it possesses fall under GDPR\cite{GDPR}.
+This particular data falls under the special category data (Article 9), which requires the highest level of 
+protection and oversight, with regards to processing, storage and transfer.\\
+This introduces a particular risk when this data is being handled by non-EU cloud providers, 
+such as Microsoft Azure. The ruling from Schrems II, states that:
+"Customers of US cloud service providers must now themselves verify the data protection laws
+of the recipient country, document its risk assessment and confer with its customers." - qouted from
+gdprsummary.com\cite{SCHREMSII}.\\
+With this in mind, it becomes increasingly important for LHS to have complement control and Sovereignty, 
+over the data created and stored.
+
+
+
+
 
 \subsection{Physical Vulnerabilities}
 \subsubsection{Viby site}

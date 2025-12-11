@@ -19,7 +19,7 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
-    \entry{RISKMATRIX}{online}{}
+    \entry{RISKMATRIX}{misc}{}
       \name{author}{1}{}{%
         {{hash=38d8b6a506d39ead683086c25f6ac132}{%
            family={{AlertMedia}},
@@ -48,7 +48,7 @@
       \verb https://www.alertmedia.com/blog/risk-matrix/
       \endverb
     \endentry
-    \entry{OWASP}{online}{}
+    \entry{OWASP}{misc}{}
       \name{author}{1}{}{%
         {{hash=24b95a7fdad5a850196cd87546dcc70b}{%
            family={{OWASP}},
@@ -77,7 +77,65 @@
       \verb https://owasp.org/www-community/OWASP_Risk_Rating_Methodology
       \endverb
     \endentry
-    \entry{ISO27001}{online}{}
+    \entry{GDPR}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=0c422d11f8f45d25a0a706b966bc8c36}{%
+           family={{Intersoft consulting}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{0c422d11f8f45d25a0a706b966bc8c36}
+      \strng{fullhash}{0c422d11f8f45d25a0a706b966bc8c36}
+      \strng{bibnamehash}{0c422d11f8f45d25a0a706b966bc8c36}
+      \strng{authorbibnamehash}{0c422d11f8f45d25a0a706b966bc8c36}
+      \strng{authornamehash}{0c422d11f8f45d25a0a706b966bc8c36}
+      \strng{authorfullhash}{0c422d11f8f45d25a0a706b966bc8c36}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Art. 9 GDPR, Processing of special categories of personal data}
+      \field{urlday}{11}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://gdpr-info.eu/art-9-gdpr/
+      \endverb
+      \verb{url}
+      \verb https://gdpr-info.eu/art-9-gdpr/
+      \endverb
+    \endentry
+    \entry{SCHREMSII}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=278e751ac9b73a075b3c271541b8dd0b}{%
+           family={{GDPR Summary}},
+           familyi={G\bibinitperiod}}}%
+      }
+      \strng{namehash}{278e751ac9b73a075b3c271541b8dd0b}
+      \strng{fullhash}{278e751ac9b73a075b3c271541b8dd0b}
+      \strng{bibnamehash}{278e751ac9b73a075b3c271541b8dd0b}
+      \strng{authorbibnamehash}{278e751ac9b73a075b3c271541b8dd0b}
+      \strng{authornamehash}{278e751ac9b73a075b3c271541b8dd0b}
+      \strng{authorfullhash}{278e751ac9b73a075b3c271541b8dd0b}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Schrems II a summary - all you need to know}
+      \field{urlday}{11}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.gdprsummary.com/schrems-ii//
+      \endverb
+      \verb{url}
+      \verb https://www.gdprsummary.com/schrems-ii//
+      \endverb
+    \endentry
+    \entry{ISO27001}{misc}{}
       \name{author}{1}{}{%
         {{hash=9f5c26294879e18d4353b9a48f4fe5aa}{%
            family={{www.iso.org}},
@@ -89,8 +147,8 @@
       \strng{authorbibnamehash}{9f5c26294879e18d4353b9a48f4fe5aa}
       \strng{authornamehash}{9f5c26294879e18d4353b9a48f4fe5aa}
       \strng{authorfullhash}{9f5c26294879e18d4353b9a48f4fe5aa}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{ISO/IEC 27001:2022}
@@ -106,7 +164,7 @@
       \verb https://www.iso.org/standard/27001
       \endverb
     \endentry
-    \entry{ASAfirewall}{online}{}
+    \entry{ASAfirewall}{misc}{}
       \name{author}{1}{}{%
         {{hash=974d626296d6e946002efb0e2c72fc84}{%
            family={{sec.cloudapps.cisco.com}},
@@ -118,8 +176,8 @@
       \strng{authorbibnamehash}{974d626296d6e946002efb0e2c72fc84}
       \strng{authornamehash}{974d626296d6e946002efb0e2c72fc84}
       \strng{authorfullhash}{974d626296d6e946002efb0e2c72fc84}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Cisco Adaptive Security Appliance Software and Firepower Threat Defense Software Web Services Information Disclosure Vulnerability}
@@ -135,7 +193,7 @@
       \verb https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-info-disclose-9eJtycMB
       \endverb
     \endentry
-    \entry{CLOUDACT}{online}{}
+    \entry{CLOUDACT}{misc}{}
       \name{author}{1}{}{%
         {{hash=e8aef3b978e0ffd060f014359a362e65}{%
            family={{Government of the United States}},
@@ -148,8 +206,8 @@
       \strng{authornamehash}{e8aef3b978e0ffd060f014359a362e65}
       \strng{authorfullhash}{e8aef3b978e0ffd060f014359a362e65}
       \field{extraname}{1}
-      \field{sortinit}{6}
-      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{CLOUD Act}
@@ -165,7 +223,7 @@
       \verb https://www.justice.gov/criminal/cloud-act-resources
       \endverb
     \endentry
-    \entry{FISA702}{online}{}
+    \entry{FISA702}{misc}{}
       \name{author}{1}{}{%
         {{hash=e8aef3b978e0ffd060f014359a362e65}{%
            family={{Government of the United States}},
@@ -178,8 +236,8 @@
       \strng{authornamehash}{e8aef3b978e0ffd060f014359a362e65}
       \strng{authorfullhash}{e8aef3b978e0ffd060f014359a362e65}
       \field{extraname}{2}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Foreign Intelligence Surveillance Act, FISA section 702}
@@ -193,6 +251,240 @@
       \endverb
       \verb{url}
       \verb https://www.intel.gov/foreign-intelligence-surveillance-act/fisa-section-702
+      \endverb
+    \endentry
+    \entry{UNIVENTION}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=e35bcef687a38f7bc32fc4e118078ca8}{%
+           family={{Univention}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{e35bcef687a38f7bc32fc4e118078ca8}
+      \strng{fullhash}{e35bcef687a38f7bc32fc4e118078ca8}
+      \strng{bibnamehash}{e35bcef687a38f7bc32fc4e118078ca8}
+      \strng{authorbibnamehash}{e35bcef687a38f7bc32fc4e118078ca8}
+      \strng{authornamehash}{e35bcef687a38f7bc32fc4e118078ca8}
+      \strng{authorfullhash}{e35bcef687a38f7bc32fc4e118078ca8}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Univention}
+      \field{urlday}{11}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.univention.com/
+      \endverb
+      \verb{url}
+      \verb https://www.univention.com/
+      \endverb
+    \endentry
+    \entry{SCALEWAY}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=73c733efb004028ab32181f48d8dbe79}{%
+           family={{Scaleway}},
+           familyi={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{73c733efb004028ab32181f48d8dbe79}
+      \strng{fullhash}{73c733efb004028ab32181f48d8dbe79}
+      \strng{bibnamehash}{73c733efb004028ab32181f48d8dbe79}
+      \strng{authorbibnamehash}{73c733efb004028ab32181f48d8dbe79}
+      \strng{authornamehash}{73c733efb004028ab32181f48d8dbe79}
+      \strng{authorfullhash}{73c733efb004028ab32181f48d8dbe79}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Scaleway products}
+      \field{urlday}{11}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.scaleway.com/en/all-products/
+      \endverb
+      \verb{url}
+      \verb https://www.scaleway.com/en/all-products/
+      \endverb
+    \endentry
+    \entry{LIBREOFFICE}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=4619b8fd2d5a24b7194a13514458cc5b}{%
+           family={{libreoffice}},
+           familyi={l\bibinitperiod}}}%
+      }
+      \strng{namehash}{4619b8fd2d5a24b7194a13514458cc5b}
+      \strng{fullhash}{4619b8fd2d5a24b7194a13514458cc5b}
+      \strng{bibnamehash}{4619b8fd2d5a24b7194a13514458cc5b}
+      \strng{authorbibnamehash}{4619b8fd2d5a24b7194a13514458cc5b}
+      \strng{authornamehash}{4619b8fd2d5a24b7194a13514458cc5b}
+      \strng{authorfullhash}{4619b8fd2d5a24b7194a13514458cc5b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{libreoffice}
+      \field{urlday}{11}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.collaboraonline.com/based-on-libreoffice/
+      \endverb
+      \verb{url}
+      \verb https://www.collaboraonline.com/based-on-libreoffice/
+      \endverb
+    \endentry
+    \entry{WITHSECURE}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=c10993ddf68ec8cfffb8bea669c5e752}{%
+           family={{WITHSECURE}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{c10993ddf68ec8cfffb8bea669c5e752}
+      \strng{fullhash}{c10993ddf68ec8cfffb8bea669c5e752}
+      \strng{bibnamehash}{c10993ddf68ec8cfffb8bea669c5e752}
+      \strng{authorbibnamehash}{c10993ddf68ec8cfffb8bea669c5e752}
+      \strng{authornamehash}{c10993ddf68ec8cfffb8bea669c5e752}
+      \strng{authorfullhash}{c10993ddf68ec8cfffb8bea669c5e752}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{why withsecure}
+      \field{urlday}{11}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.withsecure.com/why-withsecure/
+      \endverb
+      \verb{url}
+      \verb https://www.withsecure.com/why-withsecure/
+      \endverb
+    \endentry
+    \entry{LOGPOINT}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=bcd4eb88b4a28f2d506c38df4e4f6e98}{%
+           family={{logpoint}},
+           familyi={l\bibinitperiod}}}%
+      }
+      \strng{namehash}{bcd4eb88b4a28f2d506c38df4e4f6e98}
+      \strng{fullhash}{bcd4eb88b4a28f2d506c38df4e4f6e98}
+      \strng{bibnamehash}{bcd4eb88b4a28f2d506c38df4e4f6e98}
+      \strng{authorbibnamehash}{bcd4eb88b4a28f2d506c38df4e4f6e98}
+      \strng{authornamehash}{bcd4eb88b4a28f2d506c38df4e4f6e98}
+      \strng{authorfullhash}{bcd4eb88b4a28f2d506c38df4e4f6e98}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{SIEM logpoint}
+      \field{urlday}{11}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://logpoint.com/en/product/siem/
+      \endverb
+      \verb{url}
+      \verb https://logpoint.com/en/product/siem/
+      \endverb
+    \endentry
+    \entry{NUBUS}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=54f62127800ac06d7deed19a290387c9}{%
+           family={{Univention NUBUS}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{54f62127800ac06d7deed19a290387c9}
+      \strng{fullhash}{54f62127800ac06d7deed19a290387c9}
+      \strng{bibnamehash}{54f62127800ac06d7deed19a290387c9}
+      \strng{authorbibnamehash}{54f62127800ac06d7deed19a290387c9}
+      \strng{authornamehash}{54f62127800ac06d7deed19a290387c9}
+      \strng{authorfullhash}{54f62127800ac06d7deed19a290387c9}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{NUBUS - Central identity and Access Management}
+      \field{urlday}{11}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.univention.com/products/nubus/
+      \endverb
+      \verb{url}
+      \verb https://www.univention.com/products/nubus/
+      \endverb
+    \endentry
+    \entry{KEYCLOAK}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=e35bcef687a38f7bc32fc4e118078ca8}{%
+           family={{Univention}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{e35bcef687a38f7bc32fc4e118078ca8}
+      \strng{fullhash}{e35bcef687a38f7bc32fc4e118078ca8}
+      \strng{bibnamehash}{e35bcef687a38f7bc32fc4e118078ca8}
+      \strng{authorbibnamehash}{e35bcef687a38f7bc32fc4e118078ca8}
+      \strng{authornamehash}{e35bcef687a38f7bc32fc4e118078ca8}
+      \strng{authorfullhash}{e35bcef687a38f7bc32fc4e118078ca8}
+      \field{extraname}{2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Navigating the Keycloak Admin Console with Nubus: A Step-by-Step Introduction}
+      \field{urlday}{11}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.univention.com/blog-en/2024/10/navigating-the-keycloak-admin-console/
+      \endverb
+      \verb{url}
+      \verb https://www.univention.com/blog-en/2024/10/navigating-the-keycloak-admin-console/
+      \endverb
+    \endentry
+    \entry{SERVER_FUJITSU}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=be225f3583c25a59e9b4634216e41eb2}{%
+           family={{FUJITSU}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{be225f3583c25a59e9b4634216e41eb2}
+      \strng{fullhash}{be225f3583c25a59e9b4634216e41eb2}
+      \strng{bibnamehash}{be225f3583c25a59e9b4634216e41eb2}
+      \strng{authorbibnamehash}{be225f3583c25a59e9b4634216e41eb2}
+      \strng{authornamehash}{be225f3583c25a59e9b4634216e41eb2}
+      \strng{authorfullhash}{be225f3583c25a59e9b4634216e41eb2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{PRIMERGY Servers}
+      \field{urlday}{11}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.fujitsu.com/global/products/computing/servers/primergy/index.html
+      \endverb
+      \verb{url}
+      \verb https://www.fujitsu.com/global/products/computing/servers/primergy/index.html
       \endverb
     \endentry
   \enddatalist
