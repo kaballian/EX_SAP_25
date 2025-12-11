@@ -27,3 +27,5 @@
 \contentsline {section}{\numberline {6}EU-Alternatives}{11}{}%
 \contentsline {section}{\numberline {7}Comparison of current and proposed solutions}{12}{}%
 \contentsline {section}{\numberline {8}Conclusion}{13}{}%
+\contentsline {section}{References}{14}{}%
+\contentsline {section}{References}{14}{}%

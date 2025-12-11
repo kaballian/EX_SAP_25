@@ -283,6 +283,35 @@
       \verb https://www.univention.com/
       \endverb
     \endentry
+    \entry{NUBUS}{misc}{}
+      \name{author}{1}{}{%
+        {{hash=54f62127800ac06d7deed19a290387c9}{%
+           family={{Univention NUBUS}},
+           familyi={U\bibinitperiod}}}%
+      }
+      \strng{namehash}{54f62127800ac06d7deed19a290387c9}
+      \strng{fullhash}{54f62127800ac06d7deed19a290387c9}
+      \strng{bibnamehash}{54f62127800ac06d7deed19a290387c9}
+      \strng{authorbibnamehash}{54f62127800ac06d7deed19a290387c9}
+      \strng{authornamehash}{54f62127800ac06d7deed19a290387c9}
+      \strng{authorfullhash}{54f62127800ac06d7deed19a290387c9}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{NUBUS - Central identity and Access Management}
+      \field{urlday}{11}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.univention.com/products/nubus/
+      \endverb
+      \verb{url}
+      \verb https://www.univention.com/products/nubus/
+      \endverb
+    \endentry
     \entry{SCALEWAY}{misc}{}
       \name{author}{1}{}{%
         {{hash=73c733efb004028ab32181f48d8dbe79}{%
@@ -397,35 +426,6 @@
       \endverb
       \verb{url}
       \verb https://logpoint.com/en/product/siem/
-      \endverb
-    \endentry
-    \entry{NUBUS}{misc}{}
-      \name{author}{1}{}{%
-        {{hash=54f62127800ac06d7deed19a290387c9}{%
-           family={{Univention NUBUS}},
-           familyi={U\bibinitperiod}}}%
-      }
-      \strng{namehash}{54f62127800ac06d7deed19a290387c9}
-      \strng{fullhash}{54f62127800ac06d7deed19a290387c9}
-      \strng{bibnamehash}{54f62127800ac06d7deed19a290387c9}
-      \strng{authorbibnamehash}{54f62127800ac06d7deed19a290387c9}
-      \strng{authornamehash}{54f62127800ac06d7deed19a290387c9}
-      \strng{authorfullhash}{54f62127800ac06d7deed19a290387c9}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{NUBUS - Central identity and Access Management}
-      \field{urlday}{11}
-      \field{urlmonth}{12}
-      \field{urlyear}{2025}
-      \field{year}{2025}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.univention.com/products/nubus/
-      \endverb
-      \verb{url}
-      \verb https://www.univention.com/products/nubus/
       \endverb
     \endentry
     \entry{KEYCLOAK}{misc}{}
